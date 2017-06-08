@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyGallery</string>
+    <string name="share_comment">分享</string>
+    <string name="cancel">取消</string>
+
+    <string name="comment_save_pic">保存图片</string>
+    <string name="comment_praise">顶</string>
+    <string name="comment_praise_already">已顶</string>
+    <string name="comment_praise_success">点赞成功</string>
+    <string name="comment_praise_failed">点赞失败</string>
+    <string name="comment_pic_saved">图片已保存</string>
+    <string name="comment_pic_saved_failed">图片保存失败</string>
+</resources>
