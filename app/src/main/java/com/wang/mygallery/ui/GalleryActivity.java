@@ -34,7 +34,7 @@ import rx.functions.Action1;
  * Created by wang on 16-8-25.
  */
 
-public class GalleryActivity extends AppCompatActivity implements GalleryView {
+public class GalleryActivity extends AppCompatActivity implements IGalleryView {
     private static final String TAG = "GalleryActivity";
 
     public static final String EXTRAS_PIC_POSITION = "extras_pic_position";
@@ -389,14 +389,6 @@ public class GalleryActivity extends AppCompatActivity implements GalleryView {
         public void onPageScrollStateChanged(int state) {
         }
     };
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-    }
-
-
 
 
 }
