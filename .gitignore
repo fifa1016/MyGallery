@@ -8,7 +8,6 @@
 /build
 /captures
 .externalNativeBuild
-.gitignore
 .idea/
 libs/
 src/main/res/drawable/
